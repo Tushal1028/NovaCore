@@ -1,0 +1,39 @@
+.homeimg{
+    height: 70vh;
+    width: 100%;
+    
+    margin-top: 19vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    /* border: 2px solid red; */
+}
+.homeimg .box{
+    height: 100%;
+    width: 100%;
+    background-color: #00000090;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.info{
+    height: 70%;
+    width: 60%;
+    /* border: 2px solid red; */
+    color: white;
+    padding: 50px 50px;
+}
+.info h1{
+    font-size: 80px;
+    background-image: url(/M2.jpg);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.info h3{
+    font-size: 36px;
+}
+.info p{
+    margin-top: 5px;
+    font-size: 18px;
+    color: antiquewhite;
+}
